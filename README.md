@@ -12,7 +12,6 @@
  ### Real-time Greeks: 
  Computes Delta, Gamma, Theta, Vega, and Rho (model dependent).Dynamic Visualizations: Responsive charts using recharts to display terminal price distributions or price-vs-strike profiles.Live-style Pricing: Integrated mock ticker lookup for major assets like AAPL, TSLA, and NVDA.
  
- ### 🛠️ Tech StackFramework: React 18.3 Build Tool: Vite Data Viz: Recharts Styling: Custom CSS with CSS Variables for theme management 
- 
+
 
 
