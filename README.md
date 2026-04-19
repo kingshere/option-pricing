@@ -14,19 +14,5 @@
  
  ### 🛠️ Tech StackFramework: React 18.3 Build Tool: Vite Data Viz: Recharts Styling: Custom CSS with CSS Variables for theme management 
  
- ### 📂 Project Structure
-├── src/
-│   ├── components/
-│   │   ├── PricingForm.jsx      # Parameter inputs (Strike, Vol, etc.) [cite: 82]
-│   │   ├── ResultsPanel.jsx     # Option price and Greeks display [cite: 107]
-│   │   ├── Sidebar.jsx          # Model selection navigation [cite: 116]
-│   │   └── SimulationChart.jsx  # Recharts implementation [cite: 119]
-│   ├── lib/
-│   │   ├── blackScholes.js      # Analytical pricing logic [cite: 146]
-│   │   ├── monteCarlo.js        # Simulation logic [cite: 160]
-│   │   └── binomial.js          # Tree-based logic 
-│   └── App.jsx                  # Main state and calculation orchestrator [cite: 60]
 
 
-### ⚙️ Mathematical EnginesBlack-ScholesCalculates European option prices using the standard normal cumulative distribution function.
-$$d_1 = \frac{\ln(S/K) + (r + \frac{\sigma^2}{2})T}{\sigma\sqrt{T}}$$Monte CarloSimulates price paths based on Geometric Brownian Motion. It supports up to 100,000 simulations for increased accuracy.Binomial ModelUses a 200-step tree approach. Greeks like Delta and Gamma are approximated via finite difference methods (S ± 1%).
