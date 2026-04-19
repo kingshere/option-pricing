@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Sidebar from './components/Sidebar';
-import PricingForm from './components/PricingForm';
+import PricingForm from './components/pricingForm';
 import ResultsPanel from './components/ResultsPanel';
 import { blackScholes } from './lib/blackScholes';
 import { monteCarlo } from './lib/monteCarlo';
