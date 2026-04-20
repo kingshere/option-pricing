@@ -131,39 +131,6 @@ Cox-Ross-Rubinstein discrete lattice model. Builds a recombining price tree and 
 
 ---
 
-## Screenshots
 
-> The app features a dark terminal aesthetic with a sidebar model selector, interactive input form, results cards for Call/Put prices, a Greeks panel, and a distribution chart.
 
----
 
-## Mathematics
-
-For the full mathematical derivation of all three pricing engines — including stochastic differential equations, the Black-Scholes PDE, risk-neutral pricing theory, Monte Carlo convergence analysis, and the CRR binomial tree construction — see the companion document:
-
-📄 **`Option_Pricing_Mathematics.pdf`** (included in this repository)
-
----
-
-## Roadmap
-
-- [ ] Implied volatility solver (Newton-Raphson)
-- [ ] American option pricing (early exercise premium)
-- [ ] Options payoff diagram at expiry
-- [ ] Live market data via free API (yFinance / Alpha Vantage)
-- [ ] Portfolio of multiple options
-- [ ] Export results to CSV/PDF
-
----
-
-## License
-
-MIT License — free to use, modify, and distribute.
-
----
-
-## Acknowledgements
-
-- Black, F. & Scholes, M. (1973). *The Pricing of Options and Corporate Liabilities*. Journal of Political Economy.
-- Cox, J., Ross, S. & Rubinstein, M. (1979). *Option Pricing: A Simplified Approach*. Journal of Financial Economics.
-- Hull, J. (2022). *Options, Futures, and Other Derivatives* (11th ed.). Pearson.
